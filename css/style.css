@@ -1,3 +1,11 @@
+html {
+    background: url('snowcappedmtn.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -17,6 +25,10 @@ body {
     "footer footer footer";
 }
 
+.wrapper {
+    height: 700px;
+}
+
 header {
    grid-area: header;
 }
@@ -28,17 +40,8 @@ footer {
     grid-area: footer;
 }
 
-.wrapper {
-    background-image: url('snowcappedmtn.jpg');
-    background-position: 50% 20%;
-    background-clip: border-box;
-    margin-right: auto;
-    margin-left: auto;
-    height: 700px;
-
-}
-
 nav {
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -46,7 +49,7 @@ nav {
 }
 
 nav h1 {
-    margin: 0;
+    margin: 10px;
     display: flex;
 
 }
@@ -56,21 +59,27 @@ nav a {
     text-decoration: none;
     color: white;
     flex-direction: row;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .5px;
     
 }
 
 nav ul {
     display: flex;
-    margin: 0;
+    margin: 10px;
     list-style-type: none;
-    flex-basis: fit-content;
-    
-    
-
+    flex-basis: fit-content; 
 }
+    
+ 
+
+
 
  nav li {
-     margin: 0 10px;
+     margin: 2px 4px;
+     border-radius: 10px;
+     padding: 5px;
+     border: white solid;
      
  }
 
@@ -78,3 +87,24 @@ nav ul {
      display: flex;
      flex-basis: auto;
  }
+
+.titlecard {
+    margin: 200px 0 0 0;
+    color: rgb(255, 253, 253);
+    font-family: 'anton', sans-serif;
+    font-size: 5rem;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px #000000;
+    transform: rotate(-20deg);
+
+}
+
+.main {
+    flex-flow: row wrap;
+}
+
+img {
+    width: 700px;
+}
