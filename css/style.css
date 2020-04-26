@@ -193,8 +193,7 @@ img {
     
     .img {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-auto-rows: auto;
+        grid-template-columns: repeat(2, 1fr);
        
     }
        
@@ -205,22 +204,26 @@ img {
     }
 
     .hikers {
-        grid-column: span 2;
+        grid-column: span 1;
 
     }
 
     .guy {
-        display: grid;
-        column-fill: auto-fill;
+        grid-column: span 1;
+        
+    }
 
+    .snow {
+        grid-column: span 1;
+    
     }
 
     .waterfall {
-        grid-column: span 2;
+        grid-column: span 1;
     }
 
     .women {
-        grid-column: span 3;
+        grid-column: span 2;
     }
 
     .women p {
