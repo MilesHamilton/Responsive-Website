@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Reponsive Website
 
 ## Description
@@ -11,14 +10,11 @@ Under the hood, the application is styled as mobile first using primarily Flexbo
 
 1. Fork and clone this repository.
 2. Change into the new directory.
-3. Use Git clone to transfer it to you local machine
+3. Use Git clone to transfer it to you local machine.
 
 ## Author 
 
     Miles Hamilton
 
 ##  Acknowledgements
-thank you General Assembly for the instruction and guidance you took part in helping creating this website 
-=======
-# Responsive-Website
->>>>>>> ad13e5ef451fe497d70aba34d833378a95d83146
+thank you General Assembly for the instruction and guidance you took part in helping creating this website.
