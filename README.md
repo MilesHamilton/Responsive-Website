@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Reponsive Website
 
 ## Description
@@ -18,3 +19,6 @@ Under the hood, the application is styled as mobile first using primarily Flexbo
 
 ##  Acknowledgements
 thank you General Assembly for the instruction and guidance you took part in helping creating this website 
+=======
+# Responsive-Website
+>>>>>>> ad13e5ef451fe497d70aba34d833378a95d83146
